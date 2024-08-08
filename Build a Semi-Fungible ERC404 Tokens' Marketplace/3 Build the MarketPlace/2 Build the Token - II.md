@@ -24,9 +24,8 @@ Technically:
 ### Initializing the `setPrices` function
 
 ```
-    function setPrices(uint120 publicPrice_, uint120 allowlistPrice_) public onlyOwner {
+    function setPublicPrice(uint120 publicPrice_ public onlyOwner {
         publicPrice = publicPrice_;
-        allowlistPrice = allowlistPrice_;
     }
 ```
 
